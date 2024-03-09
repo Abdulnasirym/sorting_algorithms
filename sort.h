@@ -51,5 +51,10 @@ void quick_sort_hoare(int *array, size_t size);
 void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
 void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
 int arr_max(int *array, size_t size);
+void copy_array(int *arr, int *cpy, int size);
+void mergeSort(int *cpy, int first, int size, int *array);
+void merge(int *array, int size, int first, int mid, int *cpy);
+void print_left_right(int *array, int size, int first, int mid);
+
 
 #endif
